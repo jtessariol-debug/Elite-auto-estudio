@@ -131,7 +131,7 @@ function FinalCta() {
 }
 
 function Footer() {
-  return <footer><div className="shell footer-grid"><div><BrandMark /><p>Tu carro se lava. Tú disfrutas.</p><p className="footer-meta">Car Wash · Bar · Billar</p></div><div><p className="footer-label">Visítanos</p><p>Plaza Rachely<br />Av. San Vicente de Paul<br />Frente al Parque El Rosal<br />Santo Domingo Este</p></div><div><p className="footer-label">Contacto</p><a href={whatsappLink()} target="_blank" rel="noreferrer">829-642-5704</a><p className="hours"><Clock3 size={15} /> Reservas por WhatsApp</p><InstagramLink variant="footer" /></div><div className="footer-links">{navItems.map(([label, href]) => <a key={href} href={href}>{label}</a>)}</div></div><div className="shell copyright">© {new Date().getFullYear()} Elite Auto Estudio</div></footer>
+  return <footer><div className="shell footer-grid"><div><BrandMark /><p>Tu carro se lava. Tú disfrutas.</p><p className="footer-meta">Car Wash · Bar · Billar</p></div><div><p className="footer-label">Visítanos</p><p>Plaza Rachely<br />Av. San Vicente de Paul<br />Frente al Parque El Rosal<br />Santo Domingo Este</p></div><div><p className="footer-label">Contacto</p><a href={whatsappLink()} target="_blank" rel="noreferrer">{site.phone}</a><p className="hours"><Clock3 size={15} /> Reservas por WhatsApp</p><InstagramLink variant="footer" /></div><div className="footer-links">{navItems.map(([label, href]) => <a key={href} href={href}>{label}</a>)}</div></div><div className="shell copyright">© {new Date().getFullYear()} Elite Auto Estudio</div></footer>
 }
 
 function WhatsAppButton() {
