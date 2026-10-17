@@ -7,3 +7,10 @@ dist
 *.tsbuildinfo
 .DS_Store
 *.log
+desktop.ini
+Thumbs.db
+asset-backup-*/
+/videos/
+/public/Videos/Bar.mp4
+/public/Videos/Billar.mp4
+/public/Videos/car wash.mp4

@@ -9,7 +9,7 @@ const imagePath = (filename: string) => `${import.meta.env.BASE_URL}images/${fil
 
 export const images = {
   logo: {
-    src: imagePath('elite-logo.jpg'),
+    src: imagePath('Elite%20autoestudio%20Logo%20v2.jpeg'),
     alt: 'Logo de Elite Car Wash',
     width: 640,
     height: 640,
